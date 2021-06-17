@@ -33,6 +33,13 @@ html {
     -webkit-text-fill-color: transparent;
 }
 
+.active.rainbow-border {
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 0 0 3px 0;
+    border-image-source: linear-gradient(to right, red, orange, yellow, green);
+}
+
 /* ---------------------------------------------- Colours end */
 
 /* ---------------------------------------------- Navbar start */
