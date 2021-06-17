@@ -78,6 +78,21 @@ html {
 
 /* ---------------------------------------------- Landing end */
 
+/* ---------------------------------------------- Charities page start */
+.charities-hdr{
+    height: calc(100vh - 68px);
+}
+.charities-banner-bg{
+    height: 100%;
+    width: 100%;
+    background: url(../images/pride-charities-banner-image.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    linear-gradient
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 767.98px) {
     .landing-font {
