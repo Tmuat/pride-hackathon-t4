@@ -7,7 +7,7 @@
 
 /* ---------------------------------------------- Font Import start */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700&display=swap');
 
 /* ---------------------------------------------- Font Import end */
 
@@ -24,15 +24,6 @@ html {
 
 /* ---------------------------------------------- Colours start */
 
-/* https://w3bits.com/rainbow-text/ */
-.rainbow-text {
-    background-image: -webkit-gradient(linear, right top, left top, from(violet), color-stop(indigo), color-stop(blue), color-stop(green), color-stop(yellow), color-stop(orange), to(red));
-    background-image: -o-linear-gradient(right, violet, indigo, blue, green, yellow, orange, red);
-    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
 .active.rainbow-border {
     border: 10px solid;
     border-image-slice: 1;
@@ -40,12 +31,44 @@ html {
     border-image-source: linear-gradient(to right, red, orange, yellow, green);
 }
 
+.landing-background {
+    width: 100vw;
+    background-image: url(../images/background.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
 /* ---------------------------------------------- Colours end */
 
 /* ---------------------------------------------- Navbar start */
 
 .logo-font {
-    font-weight: 700;
+    font-weight: 600;
+    font-size: 1.75rem;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
 }
 
 /* ---------------------------------------------- Navbar end */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 767.98px) { }
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 991.98px) {
+    .logo-font {
+        font-weight: 600;
+        font-size: 1.25rem;
+    }
+
+    .logo {
+        height: 30px;
+        width: 30px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 1199.98px) { }
