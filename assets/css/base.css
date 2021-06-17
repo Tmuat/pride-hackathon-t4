@@ -1,0 +1,44 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/* ---------------------------------------------- Font Import start */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap');
+
+/* ---------------------------------------------- Font Import end */
+
+/* ---------------------------------------------- Global Styling start */
+
+body,
+html {
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+    background-color: #ffffff;
+}
+
+/* ---------------------------------------------- Global Styling end */
+
+/* ---------------------------------------------- Colours start */
+
+/* https://w3bits.com/rainbow-text/ */
+.rainbow-text {
+    background-image: -webkit-gradient(linear, right top, left top, from(violet), color-stop(indigo), color-stop(blue), color-stop(green), color-stop(yellow), color-stop(orange), to(red));
+    background-image: -o-linear-gradient(right, violet, indigo, blue, green, yellow, orange, red);
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* ---------------------------------------------- Colours end */
+
+/* ---------------------------------------------- Navbar start */
+
+.logo-font {
+    font-weight: 700;
+}
+
+/* ---------------------------------------------- Navbar end */
