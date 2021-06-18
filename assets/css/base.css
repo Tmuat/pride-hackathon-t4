@@ -79,18 +79,27 @@ html {
 /* ---------------------------------------------- Landing end */
 
 /* ---------------------------------------------- Charities page start */
-.charities-hdr{
-    height: calc(100vh - 68px);
-}
+
 .charities-banner-bg{
-    height: 100%;
+    height: calc(100vh - 68px);
     width: 100%;
     background: url(../images/pride-charities-banner-image.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    linear-gradient
+    overflow: hidden;
+}
+#charity-section{
+    padding: 100px 50px;
+}
+.charity-org-1{
+    background-color: aquamarine;
+}
+.charity-img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
 }
 
 /* Small devices (landscape phones, 576px and up) */
