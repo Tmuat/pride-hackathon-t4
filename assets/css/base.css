@@ -129,6 +129,20 @@ html {
 
 /* ---------------------------------------------- Contact Page end */
 
+/* ---------------------------------------------- Tech Satas Page start */
+
+
+.gap100 {
+    padding: 70px 30px;
+}
+
+.gap50 {
+    padding: 30px 30px;
+}
+
+
+/* ---------------------------------------------- Tech Stats Page end */
+
 /* ---------------------------------------------- Events Page start */
  .card {
      justify-content: center;
