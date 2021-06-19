@@ -31,6 +31,10 @@ html {
     align-items: flex-start;
 }
 
+.top-padding {
+    padding-top: 68px;
+}
+
 /* ---------------------------------------------- Global Styling end */
 
 /* ---------------------------------------------- Colours start */
