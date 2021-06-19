@@ -1,0 +1,153 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/* ---------------------------------------------- Font Import start */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700&display=swap');
+
+/* ---------------------------------------------- Font Import end */
+
+/* ---------------------------------------------- Global Styling start */
+
+body,
+html {
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+    background-color: #ffffff;
+}
+
+.full-height {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 68px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* ---------------------------------------------- Global Styling end */
+
+/* ---------------------------------------------- Colours start */
+
+.active.rainbow-border {
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 0 0 3px 0;
+    border-image-source: linear-gradient(to right, red, orange, yellow, green);
+}
+
+.rainbow-divider-long {
+    width: 100%;
+    height: 2px;
+    background:linear-gradient(to right, red, orange, yellow, green);
+}
+
+/* SVG from https://bgjar.com/ */
+.landing-background {
+    width: 100vw;
+    background-image: url(../images/background.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+/* ---------------------------------------------- Colours end */
+
+/* ---------------------------------------------- Navbar start */
+
+.logo-font {
+    font-weight: 600;
+    font-size: 1.75rem;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+}
+
+/* ---------------------------------------------- Navbar end */
+
+/* ---------------------------------------------- Landing start */
+
+.landing-content-height {
+    height: calc(100vh - 68px);
+}
+
+.landing-font {
+    font-size: 4.5rem;
+}
+
+/* ---------------------------------------------- Landing end */
+
+
+/* ---------------------------------------------- Contact page start */
+
+.contact-page { 
+    background-color: #d4dbe3;
+}
+
+.rainbow-divider-short {
+    width: 20%;
+    height: 2px;
+    background: linear-gradient(to right, red, orange, yellow, green);
+}
+
+.btn-rainbow {
+    background: linear-gradient(to right, red, orange, yellow, green);
+}
+
+.image-fit-cover {
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.team-member {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  .team-member img {
+    width: 9rem;
+    height: 9rem;
+    border: 0.2rem solid  orange;
+  }
+  .team-member h4 {
+    margin-top: 2rem;
+    margin-bottom: 0;
+  }
+  .img-brand {
+    height: 2.75rem;
+  } 
+
+/* ---------------------------------------------- Contact Page end */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 767.98px) {
+    .landing-font {
+        font-size: 2.5rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 991.98px) {
+    .logo-font {
+        font-weight: 600;
+        font-size: 1.25rem;
+    }
+
+    .logo {
+        height: 30px;
+        width: 30px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 1199.98px) {
+    .landing-font {
+        font-size: 3.5rem;
+    }
+}
