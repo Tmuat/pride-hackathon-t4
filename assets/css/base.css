@@ -136,8 +136,12 @@ html {
     padding: 70px 30px;
 }
 
-.gap50 {
+.gap60 {
     padding: 30px 30px;
+}
+
+.gap120 {
+    padding: 70px 50px;
 }
 
 
