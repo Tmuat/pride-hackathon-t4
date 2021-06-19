@@ -95,6 +95,11 @@ html {
 }
 .charity-org-1{
     background-color: aquamarine;
+    padding: 20px;
+}
+.charity-org-2{
+    background-color: violet;
+    padding: 20px;
 }
 .charity-img{
     width: 100%;
