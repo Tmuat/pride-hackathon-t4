@@ -31,6 +31,10 @@ html {
     align-items: flex-start;
 }
 
+.top-padding {
+    padding-top: 68px;
+}
+
 /* ---------------------------------------------- Global Styling end */
 
 /* ---------------------------------------------- Colours start */
@@ -40,6 +44,12 @@ html {
     border-image-slice: 1;
     border-width: 0 0 3px 0;
     border-image-source: linear-gradient(to right, red, orange, yellow, green);
+}
+
+.rainbow-divider-long {
+    width: 100%;
+    height: 2px;
+    background:linear-gradient(to right, red, orange, yellow, green);
 }
 
 /* SVG from https://bgjar.com/ */
@@ -77,6 +87,53 @@ html {
 }
 
 /* ---------------------------------------------- Landing end */
+
+/* ---------------------------------------------- Contact page start */
+
+.contact-page { 
+    background-color: #d4dbe3;
+}
+
+.rainbow-divider-short {
+    width: 20%;
+    height: 2px;
+    background: linear-gradient(to right, red, orange, yellow, green);
+}
+
+.btn-rainbow {
+    background: linear-gradient(to right, red, orange, yellow, green);
+}
+
+.image-fit-cover {
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.team-member {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  .team-member img {
+    width: 9rem;
+    height: 9rem;
+    border: 0.2rem solid  orange;
+  }
+  .team-member h4 {
+    margin-top: 2rem;
+    margin-bottom: 0;
+  }
+  .img-brand {
+    height: 2.75rem;
+  } 
+
+/* ---------------------------------------------- Contact Page end */
+
+/* ---------------------------------------------- Events Page start */
+ .card {
+     justify-content: center;
+ }
+
+/* ---------------------------------------------- Events Page end */
 
 /* ---------------------------------------------- Charities page start */
 
@@ -128,6 +185,8 @@ html {
     
 }
 
+/* ---------------------------------------------- Charities page end */
+
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 767.98px) {
     .landing-font {
@@ -154,3 +213,5 @@ html {
         font-size: 3.5rem;
     }
 }
+
+
