@@ -131,22 +131,6 @@ html {
 
 /* ---------------------------------------------- Tech Satas Page start */
 
-.gap60 {
-    padding: 15px 30px;
-}
-
-.gap120 {
-    padding: 70px 50px;
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (max-width: 1199.98px) {
-    .gap70 {
-        padding: 70px 0px;
-    }
-    
-}
-
 
 /* ---------------------------------------------- Tech Stats Page end */
 
