@@ -109,41 +109,46 @@ html {
     object-fit: cover;
 }
 
-.team-member {
-    margin-bottom: 2rem;
-    text-align: center;
-  }
-  .team-member img {
-    width: 9rem;
-    height: 9rem;
-    border: 0.2rem solid  orange;
-  }
-  .team-member h4 {
-    margin-top: 2rem;
-    margin-bottom: 0;
-  }
-  .img-brand {
-    height: 2.75rem;
-  } 
+.team-member img {
+width: 9rem;
+height: 9rem;
+border: 0.2rem solid  orange;
+}
+
+.team-member h4 {
+margin-top: 2rem;
+margin-bottom: 0;
+}
+
+.img-brand {
+height: 2.75rem;
+}
+
+.right-arrow {
+    right: 0em !important;
+    top: 40% !important;
+}
+
+.left-arrow {
+    left: 0em !important;
+    top: 40% !important;
+}
+
+.large-padding {
+    padding-left: 150px;
+    padding-right: 150px;
+}
 
 /* ---------------------------------------------- Contact Page end */
 
-/* ---------------------------------------------- Tech Satas Page start */
+/* ---------------------------------------------- Tech Stats Page start */
 
 .gap60 {
     padding: 15px 30px;
 }
 
 .gap120 {
-    padding: 70px 50px;
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (max-width: 1199.98px) {
-    .gap70 {
-        padding: 70px 0px;
-    }
-    
+    padding: 50px 50px;
 }
 
 
@@ -228,11 +233,14 @@ html {
     }
 }
 
-/* Large devices (desktops, 992px and up) */
+/* Large devices (desktops, 1200px and up) */
 @media (max-width: 1199.98px) {
     .landing-font {
         font-size: 3.5rem;
     }
+
+    .large-padding {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 }
-
-
