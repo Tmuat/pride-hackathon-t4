@@ -31,10 +31,6 @@ html {
     align-items: flex-start;
 }
 
-.top-padding {
-    padding-top: 68px;
-}
-
 /* ---------------------------------------------- Global Styling end */
 
 /* ---------------------------------------------- Colours start */
@@ -44,12 +40,6 @@ html {
     border-image-slice: 1;
     border-width: 0 0 3px 0;
     border-image-source: linear-gradient(to right, red, orange, yellow, green);
-}
-
-.rainbow-divider-long {
-    width: 100%;
-    height: 2px;
-    background:linear-gradient(to right, red, orange, yellow, green);
 }
 
 /* SVG from https://bgjar.com/ */
@@ -88,6 +78,7 @@ html {
 
 /* ---------------------------------------------- Landing end */
 
+/* ---------------------------------------------- Footer start */
 
 /* ---------------------------------------------- Contact page start */
 
@@ -161,4 +152,14 @@ html {
     .landing-font {
         font-size: 3.5rem;
     }
+}
+
+footer a {
+    color: inherit;
+}
+
+.charity-links {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
