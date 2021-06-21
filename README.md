@@ -1,6 +1,6 @@
 # Team 4 Pride Education
 
-![Responsive design view of the site]()
+![Responsive design view of the site](https://github.com/Tmuat/pride-hackathon-t4/blob/master/assets/images/responsive-design.JPG)
 
 [View the deployed site here](https://tmuat.github.io/pride-hackathon-t4/)
 
