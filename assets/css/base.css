@@ -89,6 +89,33 @@ html {
 
 /* ---------------------------------------------- Landing end */
 
+/* ---------------------------------------------- History of pride start */
+
+#history-of-pride h2 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.history-img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.history-img {
+    width: 80%;
+}
+
+.history-padding {
+    padding-bottom: 30px;
+}
+
+.history-content {
+    padding: 10px 20px 0 20px;
+}
+
+/* ---------------------------------------------- History of pride end */
+
 /* ---------------------------------------------- Contact page start */
 
 .contact-page { 
