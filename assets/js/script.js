@@ -7,3 +7,10 @@ $(window).scroll(function () {
         $('.navbar').removeClass('bg-light');
     }
 });
+
+// A Function to add a coloured background to the navbar when the navbar collapses and the burger icon is pressed
+window.onload = function () {
+    $(".navbar-toggler").click(function () {
+        $(".navbar").toggleClass("bg-light-extra");
+    });
+};

@@ -72,6 +72,10 @@ html {
     background-attachment: fixed;
 }
 
+.bg-light-extra {
+    background-color: #f8f9fa!important;
+}
+
 /* ---------------------------------------------- Colours end */
 
 /* ---------------------------------------------- Navbar start */
