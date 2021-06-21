@@ -173,10 +173,18 @@ html {
 
 
 /* ---------------------------------------------- Events Page start */
+<<<<<<< HEAD
+.card {
+    border: 0;
+}
+
+
+=======
  .card {
      justify-content: center;
  }
  
+>>>>>>> f99f9692aff4997046c71ed5581e9a993cca71c4
 /* ---------------------------------------------- Events Page end */
 
 /* ---------------------------------------------- Charities page start */
