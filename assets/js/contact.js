@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 const Config = {
   type: 'carousel',
   startAt: 0,
@@ -13,5 +14,5 @@ const Config = {
       perView: 1
     }
   }
-}
-new Glide('.glide', Config).mount()
+};
+new Glide('.glide', Config).mount();
