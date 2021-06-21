@@ -239,9 +239,14 @@ footer a {
     }
 }
 
-/* Large devices (desktops, 992px and up) */
+/* Large devices (desktops, 1200px and up) */
 @media (max-width: 1199.98px) {
     .landing-font {
         font-size: 3.5rem;
+    }
+
+    .large-padding {
+        padding-left: 30px;
+        padding-right: 30px;
     }
 }
