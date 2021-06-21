@@ -147,6 +147,9 @@ html {
     background-size: cover;
     overflow: hidden;
 }
+.pride-charities-heading{
+    font-weight: bold;
+}
 #charity-section{
     padding: 100px 50px;
 }
