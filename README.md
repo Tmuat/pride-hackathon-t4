@@ -17,4 +17,8 @@
 
 ## Code Snippets
 
+* [Bootstrap](https://getbootstrap.com/) was used throughout the site development as a way to make the site more responsive and more visually appealing.
+* [Fontawesome](https://fontawesome.com/) was used throughout in getting icons
+* [Css Box shadow generator](https://cssgenerator.org/box-shadow-css-generator.html) was used to add a box shadow to charities page
+* [W3 schools](https://www.w3schools.com/howto/howto_css_parallax.asp) was used to help with parallax scroll images used.
 
