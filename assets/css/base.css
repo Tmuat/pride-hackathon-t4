@@ -102,12 +102,6 @@ html {
 
 /* ---------------------------------------------- History of pride start */
 
-#history-of-pride h2 {
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
 .history-img-container {
     display: -webkit-box;
     display: -ms-flexbox;
