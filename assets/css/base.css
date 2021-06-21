@@ -150,9 +150,10 @@ html {
 /* ---------------------------------------------- Tech Stats Page end */
 
 /* ---------------------------------------------- Events Page start */
- .card {
-     justify-content: center;
- }
+.card {
+    border: 0;
+}
+
 
 /* ---------------------------------------------- Events Page end */
 
